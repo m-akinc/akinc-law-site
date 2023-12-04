@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Verdana', 'Arial';
+    /*background-color: #e0e0e6;*/
+    background-image: linear-gradient(#e0e0e6, #9b9b9d);
+}
+
+header {
+    font-family: 'Raleway', 'Arial';
+    /*background-color: rgb(180, 178, 178);*/
+    background-image: linear-gradient(#b5b5b6, #9f9fa0);
+}
+
+h1 {
+    color:#323233;
+    padding-left: 20px;
+}
+
+.id-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.id-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.name {
+    color:rgb(47, 47, 46);
+    font-size: 16pt;
+    font-style: italic;
+}
+
+a {
+    color: #383838;
+    text-decoration: none;
+}
